@@ -9,7 +9,9 @@
     "lint": "tsc && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
+    "jsonapi-fractal": "^1.0.17",
     "lodash": "^4.17.20",
     "next": "10.0.0",
     "react": "17.0.1",
