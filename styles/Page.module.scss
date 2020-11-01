@@ -1,0 +1,64 @@
+.bodyContainer {
+  max-width: 1010px;
+  margin: 0 auto;
+}
+
+.titleLogo {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 90%;
+}
+
+.contentContainer {
+  background-color: black;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0 0 12px black;
+  margin-bottom: 12px;
+}
+
+.carouselContainer {
+  border-radius: 5px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.innerContent {
+  background-color: #7CBA7C;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.sideContent {
+  background: rgb(50,50,50);
+  background: linear-gradient(0deg, rgba(50,50,50,1) 0%, rgba(50,50,50,1) 70%, rgba(255,255,255,1) 100%);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 12px;
+  color: white;
+
+  h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 0 0 12px black;
+  }
+
+  hr {
+    color: white;
+    border-color: white;
+  }
+}
+
+@media (min-width: 700px) {
+  .titleLogo {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1010px) {
+  .titleLogo {
+    width: 50%;
+  }
+}

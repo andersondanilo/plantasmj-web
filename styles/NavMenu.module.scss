@@ -1,0 +1,42 @@
+.navContainer {
+}
+
+.navButton {
+  display: block;
+  color: black;
+  font-family: Georgia,'Times New Roman',times,serif;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 5px;
+  border: 4px solid #7CBA7C;
+  background: rgb(124,186,124);
+  background: linear-gradient(0deg, rgba(124,186,124,1) 0%, rgba(124,186,124,1) 70%, rgba(255,255,255,1) 100%);
+}
+
+.navButton:hover {
+  color: white;
+  border-color: rgb(50, 50, 50);
+  background: rgb(50,50,50);
+  background: linear-gradient(0deg, rgba(50,50,50,1) 0%, rgba(50,50,50,1) 70%, rgba(255,255,255,1) 100%);
+}
+
+.navButton + .navButton {
+  margin-top: 12px;
+}
+
+@media (min-width: 1010px) {
+  .navContainer {
+    display: flex;
+    grid-gap: 12px;
+  }
+
+  .navButton {
+    flex: 1;
+  }
+
+  .navButton + .navButton {
+    margin-top: 0;
+  }
+}
